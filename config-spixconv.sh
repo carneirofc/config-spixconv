@@ -39,18 +39,19 @@ pushd /root/SPIxCONV/init
     ./SPIxCONV_config-pin.sh
 popd
 
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./BO-ejection_kicker.cmd
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./BO-injection_kicker.cmd
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/BO-ejection_kicker.cmd
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/BO-injection_kicker.cmd
 
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SI-injection_dipolar_kicker.cmd
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SI-injection_non_linear_kicker.cmd
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SI-vertical_pinger.cmd
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/SI-injection_dipolar_kicker.cmd
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/SI-injection_non_linear_kicker.cmd
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/SI-vertical_pinger.cmd
 
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./TB-injection_septum.cmd
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/TB-injection_septum.cmd
 
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./TS-ejection_thick_septum
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./TS-ejection_thin_septum.cmd
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/TS-ejection_thick_septum
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/TS-ejection_thin_septum.cmd
 
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./TS-injection_thick_septum_1.cmd
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./TS-injection_thick_septum_2.cmd
-#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./TS-injection_thin_septum.cmd 
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/TS-injection_thick_septum_1.cmd
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/TS-injection_thick_septum_2.cmd
+#procServ --chdir ${ioc_top_directory}/iocBoot 20200 ./SPIxCONV/TS-injection_thin_septum.cmd 
+
