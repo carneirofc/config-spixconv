@@ -1,8 +1,5 @@
 #!/bin/bash
 
-sudo systemctl stop bbb-function
-sudo systemctl disable bbb-function
-
 ioc_top_directory="/opt/stream-device"
 
 echo SPIXCONV detected.

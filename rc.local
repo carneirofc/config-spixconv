@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+
+# HardReset
+/root/start/HardReset.py &
+
+# HeartBeat LED
+/root/start/HeartBeat.py &
+
+# PRUserial485
+/root/config-spixconv.sh &
+
+exit 0
